@@ -14,9 +14,9 @@ This template solves the plumbing upfront by combining three purpose-built Go li
 
 | Engine Block | Role | What It Handles |
 | :--- | :--- | :--- |
-| 📡 **[`aether`](https://github.com/BryanNikla/aether)** | **Networking** | Generic, thread-safe WebSocket hub managing concurrent per-client read/write pumps and message broadcasting. |
-| ⏱️ **[`chronos`](https://github.com/BryanNikla/chronos)** | **Game Loop** | Fixed-timestep server tick loop (default `20Hz`) with clean `context.Context` cancellation and delta-time (`dt`) tracking. |
-| 🌎 **[`myth`](https://github.com/BryanNikla/myth)** | **ECS Storage** | Single-owner, mutex-free Entity Component System with contiguous generic pools (`myth.Pool[T]`) for CPU cache-friendly iteration. |
+| **[`aether`](https://github.com/BryanNikla/aether)** | **Networking** | Generic, thread-safe WebSocket hub managing concurrent per-client read/write pumps and message broadcasting. |
+| **[`chronos`](https://github.com/BryanNikla/chronos)** | **Game Loop** | Fixed-timestep server tick loop (default `20Hz`) with clean `context.Context` cancellation and delta-time (`dt`) tracking. |
+| **[`myth`](https://github.com/BryanNikla/myth)** | **ECS Storage** | Single-owner, mutex-free Entity Component System with contiguous generic pools (`myth.Pool[T]`) for CPU cache-friendly iteration. |
 
 ---
 
