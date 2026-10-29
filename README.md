@@ -1,6 +1,6 @@
 # Go Multiplayer Game Server Template 🎮🌎
 
-Welcome! **`go-engine-template`** is a lightweight, batteries-included Go starter repository for building **server-authoritative online multiplayer games and real-time simulations**.
+Welcome! This is a lightweight, batteries-included Go starter repository for building **server-authoritative online multiplayer games and real-time simulations**.
 
 Originally designed with a **server-authoritative MMORPG** mindset, this scaffold provides a clean, lock-free architecture that works just as well for top-down action RPGs, survival worlds, arena battlers, roguelikes, or any real-time networked application where a central server owns the truth of the world.
 
